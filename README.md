@@ -18,9 +18,9 @@ do not fit naturally into a traditional CV.
 
 ## Development
 
--npm install
--npm run dev
+- npm install
+- npm run dev
 
 ## Build
 
--npm run build
+- npm run build

@@ -55,7 +55,7 @@ export const projects: Project[] = [
       "Testing",
     ],
     status: "Details to be added",
-    documentationUrl: "/experience/UA_Medical_Remote_System_Thesis.pdf",
+    documentationUrl: `${import.meta.env.BASE_URL}experience/UA_Medical_Remote_System_Thesis.pdf`,
     documentationLabel: "Read Thesis",
     presentationUrl: "https://canva.link/m7kuu6hkjqng6nk",
     presentationLabel: "View Presentation",
@@ -79,7 +79,7 @@ export const projects: Project[] = [
       "Desktop applications",
     ],
     status: "Details to be added",
-    documentationUrl: "/experience/TFHKA_ImosoftExample.pdf",
+    documentationUrl: `${import.meta.env.BASE_URL}experience/TFHKA_ImosoftExample.pdf`,
     documentationLabel: "View application example",
   },
 ];

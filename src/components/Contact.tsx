@@ -28,7 +28,7 @@ export function Contact({ locale }: { locale: Locale }) {
           {locale.contact.github} ↗
         </a>
         <a
-          href="/CV/Jose_Maitan_DotNet_Software_Developer_CV.pdf"
+          href={`${import.meta.env.BASE_URL}CV/Jose_Maitan_DotNet_Software_Developer_CV.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Download CV — English"
@@ -36,7 +36,7 @@ export function Contact({ locale }: { locale: Locale }) {
           {locale.contact.cvEnglish} ↗
         </a>
         <a
-          href="/CV/Jose_Maitan_Desarrollador_Software_DotNet_CV.pdf"
+          href={`${import.meta.env.BASE_URL}CV/Jose_Maitan_Desarrollador_Software_DotNet_CV.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Descargar CV — Español"

@@ -30,7 +30,7 @@ export function Hero({ locale }: { locale: Locale }) {
       <div className="hero-aside">
         <img
           className="profile-photo"
-          src="/img/profile.png"
+          src={`${import.meta.env.BASE_URL}img/profile.png`}
           alt={locale.hero.imageAlt}
         />
         <p>
